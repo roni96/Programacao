@@ -1,3 +1,4 @@
-print "hello word"
-'''
+### print "hello word"
+
+´´´ teste ´´´
 >>> import this
