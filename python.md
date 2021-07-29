@@ -1,4 +1,10 @@
-### print "hello word"
+**Output de dados**
+~~~python
+print "hello word"
+~~~
 
-´´´ teste ´´´
->>> import this
+**The Zen of Python** <br>
+~~~python
+import this
+~~~
+
