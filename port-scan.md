@@ -1,5 +1,5 @@
-# coding: utf-8
 
+~~~python
 import	socket
 
 try:
@@ -9,4 +9,15 @@ try:
     print('port open')
 except:
     print('port closed')
+~~~
+
+~~~python
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.settimeout(0.1)
+codigo = s.connect_ex(('bancocn.com', 666))
+
+print(codigo)
+~~~
 
