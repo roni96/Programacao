@@ -33,3 +33,12 @@ else:
 finally:
     código que é executado sempre, independente de haver uma exceção em andamento ou não
 ~~~
+
+**Interação com sistema operacional**
+~~~python
+import os
+hostname = "google.com" #example
+response = os.system("ping 1 ", hostname)
+
+print('response')
+~~~
