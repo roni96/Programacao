@@ -1,3 +1,9 @@
+
+**Instalar bibliotecas**
+~~~python
+py -m pip install pyautogui
+~~~
+
 **Output de dados**
 ~~~python
 print "hello word"
@@ -43,7 +49,3 @@ response = os.system("ping 1 ", hostname)
 print('response')
 ~~~
 
-**Instalar bibliotecas**
-~~~python
-py -m pip install pyautogui
-~~~
