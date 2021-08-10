@@ -42,3 +42,8 @@ response = os.system("ping 1 ", hostname)
 
 print('response')
 ~~~
+
+**Instalar bibliotecas**
+~~~python
+py -m pip install pyautogui
+~~~
