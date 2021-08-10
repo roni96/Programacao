@@ -1,8 +1,13 @@
 
 **Instalar bibliotecas**
-~~~python
+~~~
 py -m pip install pyautogui
 ~~~
+**Atualizar PIP**
+~~~
+py -m pip install --upgrade pip
+~~~
+---
 
 **Output de dados**
 ~~~python
