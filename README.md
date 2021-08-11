@@ -3,6 +3,10 @@
 ~~~
 py -m pip install pyautogui
 ~~~
+**Instalar PIP**
+~~~
+sudo apt-get install python3-pip
+~~~
 **Atualizar PIP**
 ~~~
 py -m pip install --upgrade pip
