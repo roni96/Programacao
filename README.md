@@ -12,6 +12,10 @@ sudo apt-get install python3-pip
 py -m pip install --upgrade pip
 ~~~
 ---
+**Input de dados**
+~~~python
+ipadd = input("qual IP")
+~~~
 
 **Output de dados**
 ~~~python
