@@ -11,7 +11,12 @@ sudo apt-get install python3-pip
 ~~~
 py -m pip install --upgrade pip
 ~~~
+**instalar Webdriver win10**
+~~~
+C:\Users\i9\AppData\Local\Programs\Python\Python38-32
+~~~
 ---
+
 **Input de dados**
 ~~~python
 ipadd = input("qual IP")
