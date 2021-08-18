@@ -1,4 +1,11 @@
 
+**Transformar em executável:
+
+~~~
+>py -m pip install PyInstaller
+>py -m PyInstaller screping-zte.py --onefile
+~~~
+
 **Instalar bibliotecas**
 ~~~
 py -m pip install pyautogui
