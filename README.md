@@ -1,6 +1,6 @@
 
-**Transformar em executável:
 
+**Transformar em executável:**
 ~~~
 >py -m pip install PyInstaller
 >py -m PyInstaller screping-zte.py --onefile
