@@ -80,4 +80,11 @@ response = os.system("ping 1 ", hostname)
 
 print('response')
 ~~~
+**Funções**
+~~~python
+def my_function():
+  print("Hello from a function")
+
+my_function()
+~~~
 
