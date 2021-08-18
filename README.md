@@ -3,7 +3,7 @@
 **Transformar em executável:**
 ~~~
 >py -m pip install PyInstaller
->py -m PyInstaller screping-zte.py --onefile
+>py -m PyInstaller arquivo.py --onefile
 ~~~
 
 **Instalar bibliotecas**
