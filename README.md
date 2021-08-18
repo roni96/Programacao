@@ -46,6 +46,13 @@ for x in range(2, 6):
   print(x)
 ~~~
 
+~~~python
+count = 0
+while (count < 3):     
+    count = count + 1
+    print("Hello Geek") 
+~~~
+
 **Tratamento de exceções**
 ~~~python
 try:
