@@ -92,3 +92,14 @@ def my_function():
 my_function()
 ~~~
 
+**Trabalhando com arquivos .txt**
+~~~python
+#Abrir arquivo
+arquivo = open('arquivo.txt', 'r')
+#Criar lista
+arq = arquivo.readlines() 
+
+#Printar Lista.
+for linha in arq:
+	print(linha)
+~~~
