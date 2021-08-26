@@ -1,4 +1,4 @@
-
+**Versão 1**
 ~~~python
 import	socket
 
@@ -11,6 +11,7 @@ except:
     print('port closed')
 ~~~
 
+**Versão 2**
 ~~~python
 import socket
 
@@ -20,7 +21,7 @@ codigo = s.connect_ex(('bancocn.com', 666))
 
 print(codigo)
 ~~~
-
+**Versão 3**
 ~~~python
 import socket
 import os
