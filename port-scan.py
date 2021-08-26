@@ -1,6 +1,7 @@
 #
 # Dev: Romilson Ramos     
-# 
+# Versão Beta ©
+#
 
 
 import socket
