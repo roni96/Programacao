@@ -1,27 +1,5 @@
-**Versão 1**
-~~~python
-import	socket
+Realiza o scanner das portas baixas de um unico endereço IP.
 
-try:
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.settimeout(3)
-    s.connect(("www.python.org", 800))
-    print('port open')
-except:
-    print('port closed')
-~~~
-
-**Versão 2**
-~~~python
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.settimeout(0.1)
-codigo = s.connect_ex(('bancocn.com', 666))
-
-print(codigo)
-~~~
-**Versão 3**
 ~~~python
 import socket
 import os
