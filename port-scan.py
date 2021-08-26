@@ -1,6 +1,3 @@
-Realiza o scanner das portas baixas de um unico endereço IP.
-
-~~~python
 import socket
 import os
 
@@ -32,4 +29,3 @@ except:
 print('+---------------------------+')
 print('|    Port scan finished     |')
 print('+---------------------------+')
-~~~
