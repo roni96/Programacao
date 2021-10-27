@@ -1,37 +1,41 @@
 #
 # Dev: Romilson Ramos     
-# Versão Beta ©
+# Estrutura do comando: port_scan.py rede porta
+# https://www.linkedin.com/in/romilsonramos96/
 #
 
 
-import socket
-import os
+import ipaddress, socket, sys, os
+from tqdm import*
 
-#limpar a tela
-os.system('cls' if os.name == 'nt' else 'clear')
+os.system('cls')
+param = sys.argv[1:]
 
-print('+---------------------------+')
-print('|    Port scan V1.0         |')
-print('+---------------------------+')
-ipadd = input('Endereço : ')
+if(param[0] == 'help' or param[0] =='h'):
+    print('+','='*55)
+    print('| Port scan, desenvolvido por Romilson Ramos')
+    print('+','='*55)
+else:
+    try:
+        rede = ipaddress.ip_network(param[0],strict=False)
+        port = int(param[1])
+    except:
+        print('ERRROOOR_Sintaxe_do_comando: esperado rede e porta')
+        sys.exit()
 
-os.system('cls' if os.name == 'nt' else 'clear')
-print('+---------------------------+')
-print('|        Scaneando...       |')
-print('+---------------------------+')
-#tratamento de erro
-try:
-    for port in range(0, 1024):
+    print( '+','='*55)
+    print(f'| Realizar scan na rede {rede} na porta {port} TCP')
+    print( '+','='*55)
 
-        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    for ipadd in tqdm(rede):
+        s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
         s.settimeout(0.1)
-        codigo = s.connect_ex((ipadd, port))
+        cod = s.connect_ex((str(ipadd),port))
+        s.shutdown
 
-        if codigo == 0:
-            print('port ',port,' open')
-except:
-    print()
+        if cod == 0:
+            tqdm.write(f'| IP:{ipadd} porta:{port} open')
 
-print('+---------------------------+')
-print('|    Port scan finished     |')
-print('+---------------------------+')
+    print( '+','='*55)
+    print( '| Scan finalizado com sucesso!!!')
+    print( '+','='*55)
