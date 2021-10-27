@@ -1,24 +1,27 @@
 #
-# Dev: Romilson Ramos     
-# Versão Beta ©
+# Dev: Romilson Ramos
 #
 
-import ipaddress
+import ipaddress,os
 from tqdm import tqdm
 
-#Abrir arquivo
-arq_resultado = open('arquivo.txt', 'r')
-#Criar lista
-resultado = arq_resultado.readlines()
+os.system('cls')
+print( '+','='*55)
+param = input('| Digite o IP com prefixo: ')
+print( '+','='*55)
+network = ipaddress.IPv4Network(param, strict=False) 
 
-#Solicita a rede ou IP ao usuário.
-rede = input('Qual rede? ')
-#Estanciado o objeto network que vai receber a rede do IP fornecido anteriormente
-network = ipaddress.IPv4Network(rede) 
+hosts = []
+for i in tqdm(network):
+    hosts.append(i)
 
-for x in tqdm(network.hosts()):
-	resultado.append("{}\n".format(x))   # insira seu conteúdo
+tamanho = len(hosts)
+host_val = tamanho - 2
 
-arq_resultado = open('arquivo.txt', 'w') # Abre novamente o arquivo (escrita)
-arq_resultado.writelines(resultado)    # escreva o conteúdo criado anteriormente nele.
-arq_resultado.close()
+os.system('cls')
+print( '+','='*55)
+print(f'| Rede: {network}')
+print(f'| Primeiro host: {hosts[1]}')
+print(f'| Ultimo host: {hosts[tamanho-2]}')
+print(f'| Broadcast: {hosts[tamanho-1]}')
+print( '+','='*55)
