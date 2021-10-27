@@ -1,6 +1,6 @@
 #
 # Dev: Romilson Ramos     
-# Versão Beta ©
+# https://www.linkedin.com/in/romilsonramos96/
 #
 
 import hashlib, os
