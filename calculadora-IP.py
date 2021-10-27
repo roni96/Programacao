@@ -2,9 +2,6 @@
 # Dev: Romilson Ramos     
 # Versão Beta ©
 #
-# Utiliza aa biblioteca ipaddress para calculo de IP
-# Utiliza aa biblioteca tqdm para exibição de barra de progresso.
-#
 
 import ipaddress
 from tqdm import tqdm
