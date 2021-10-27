@@ -15,3 +15,8 @@ Identifica a rede, primeiro host, ultimo host e broadcast com base em um IP com 
 https://github.com/roni96/Programacao/blob/main/calculadora-IP.py
 
 ---
+**Projeto - Gerador de Hash** <br>
+Criptografa uma cadeia de caractere usanso scrip: MD5, SHA1,SHA256 e SHA512.
+<br>
+
+---
