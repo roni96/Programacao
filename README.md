@@ -16,7 +16,7 @@ https://github.com/roni96/Programacao/blob/main/calculadora-IP.py
 
 ---
 **Projeto - Gerador de Hash** <br>
-Criptografa uma cadeia de caractere usanso scrip: MD5, SHA1,SHA256 e SHA512.
+Criptografa uma cadeia de caractere usando algoritimo: MD5, SHA1,SHA256 e SHA512.
 <br>
 
 ---
