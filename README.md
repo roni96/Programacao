@@ -9,7 +9,9 @@ https://github.com/roni96/Programacao/blob/main/port-scan.py
 
 ---
 **Projeto - Calculadora de ip** <br>
-Realiza o calculo de qual rede um determinado IP pertence e exibe todos os host daquela rede. <br>
+Identifica a rede, primeiro host, ultimo host e broadcast com base em um IP com prefixo informado.
+<br>
+
 https://github.com/roni96/Programacao/blob/main/calculadora-IP.py
 
 ---
