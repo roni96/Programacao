@@ -7,7 +7,7 @@ Realiza o scanner de portas TCP. <br>
 Para executar o script, na hora da sua chamada passa como parametro a rede e a porta para realizar o scan  
 
 **Sintaxe:**
-```python .\port-scan.py 192.168.10.0/24 80```  
+`python .\port-scan.py 192.168.10.0/24 80`  
 
 https://github.com/roni96/Programacao/blob/main/port-scan.py
 
