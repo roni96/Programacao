@@ -25,8 +25,11 @@ https://github.com/roni96/Programacao/blob/main/calculadora-IP.py
 
 ---
 **Projeto - Gerador de Hash** <br>
-Transforma uma cadeia de caractere em hash usando algoritimo: MD5, SHA1, SHA256 e SHA512.<br>
-
+Transforma uma cadeia de caractere em hash usando algoritimo: MD5, SHA1, SHA256 e SHA512.
+<br>  
+`python .\Gerador_de_hash.py`  
+<br>
+**Sintaxe:**  
 https://github.com/roni96/Programacao/blob/main/Gerador_de_hash.py
 
 ---
