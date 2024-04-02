@@ -26,3 +26,6 @@ print(f'| Primeiro host: {hosts[1]}')
 print(f'| Ultimo host: {hosts[tamanho-2]}')
 print(f'| Broadcast: {hosts[tamanho-1]}')
 print( '+','='*55)
+
+os.system("pause")
+
