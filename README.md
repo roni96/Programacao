@@ -14,7 +14,7 @@ https://github.com/roni96/Programacao/blob/main/port-scan.py
 ---
 **Projeto - Calculadora de ip** <br>
 Identifica a rede, primeiro host, ultimo host e broadcast com base em um IP com prefixo informado.
-<br>
+<br>  
 **Sintaxe:**  
 `python .\calculadora-IP.py`  
 <br>
