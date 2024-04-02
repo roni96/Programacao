@@ -4,7 +4,7 @@
 **Projeto - Port Scan** <br>
 Realiza o scanner de portas TCP. <br>
 
-Para executar o script, na hora da sua chamada passa como parametro a rede e a porta para realizar o scan
+Para executar o script, na hora da sua chamada passa como parametro a rede e a porta para realizar o scan  
 """python .\port-scan.py 192.168.13.5 80"""
 https://github.com/roni96/Programacao/blob/main/port-scan.py
 
