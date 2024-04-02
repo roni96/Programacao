@@ -28,7 +28,6 @@ Transforma uma cadeia de caractere em hash usando algoritimo: MD5, SHA1, SHA256 
 **Sintaxe:**<br>
 `python .\Gerador_de_hash.py`  
 <br>
-  
 https://github.com/roni96/Programacao/blob/main/Gerador_de_hash.py
 
 ---
