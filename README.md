@@ -18,8 +18,6 @@ Identifica a rede, primeiro host, ultimo host e broadcast com base em um IP com 
 **Sintaxe:**  
 `python .\calculadora-IP.py`  
 <br>
-![image](https://github.com/roni96/Programacao/assets/41062660/20029778-b951-4184-b691-a6f8c8f8d389)
-![image](https://github.com/roni96/Programacao/assets/41062660/60d327eb-6d09-4979-ab79-991b6c7731c0)
 
 https://github.com/roni96/Programacao/blob/main/calculadora-IP.py
 
